@@ -3,12 +3,12 @@ High-level API library for Single Sign On with SAML 2.0 based on  [etree](https:
 The library provides the Identity Provider Implementation with support of both IDPInitiated and SPInitiated flow.
 
 ## Features
-* Generating identity provider metadata
-* Validating Redirect/Post Binding signed/unsigned AuthnRequests
-* Generating Post signed Responses
-* Validating Redirect/Post Binding signed/unsigned LogoutRequest
-* Generating Post signed LogoutResponses
-* SessionIndex
+* Generating identity provider metadata.
+* Validating Redirect/Post Binding signed/unsigned AuthnRequests.
+* Generating Post signed Responses.
+* Validating Redirect/Post Binding signed/unsigned LogoutRequest.
+* Generating Post signed LogoutResponses.
+* SessionIndex.
 
 ## Installation
 Install `go-saml` into your `$GOPATH` using go get:
@@ -122,7 +122,7 @@ xml, xmlerr :=  idp.MetaDataResponse()
 Please see [examples](examples) for how to use the library to be an identity provider.
 
 ## Contributing
-Would love any contribution by you, including better documentation, tests or more robust functionality. Please follow the [contributing guide](CONTRIBUTING.md)
+Would love any contribution by you, including better documentation, tests or more robust functionality. Please follow the [contributing guide](CONTRIBUTING.md).
 
 ## License
 [MIT](LICENSE)
